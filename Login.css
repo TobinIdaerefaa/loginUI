@@ -1,8 +1,70 @@
-body
-{
-    background-color:#0094ff;
-    border: 2px solid #ff0000;
+body {
+    background-color: #edf2f5;
+    overflow: hidden;
 }
-#mainBody {
-    
+#formBody {
+    position:absolute;
+    width:50%;
+    height:100%;
+    top:0;
+    left:0;
+}
+#circleBody {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 50%;
+}
+
+#circleshape1 {
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    top: -25%;
+    background-color: #bd3dae;
+    z-index: 0;
+    border-radius: 100%;
+    opacity: 0.2;
+}
+
+#circleshape2 {
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    top: -25%;
+    background-color: #bd3dae;
+    z-index: 1;
+    border-radius: 100%;
+    left: 1.6%;
+    box-shadow: 0 0 80px #8f6a8a;
+}
+
+#formHolder{
+    width:400px;
+    height:500px;
+    border:0px solid #333;
+    margin:0px auto;
+    margin-top:70px;
+
+}
+#circleInfoHolder {
+    width: 400px;
+    height: 280px;
+    border: 1px solid #333;
+    margin: 0px auto;
+    margin-top: 170px;
+    position:relative;
+    z-index:2;
+}
+
+#formTopHalf {
+    width: 100%;
+    height: 250px;
+    border: 1px solid #333;
+}
+#formBottomHalf {
+    width: 100%;
+    height: 250px;
+    border: 1px solid #333;
 }
