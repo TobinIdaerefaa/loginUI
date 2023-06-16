@@ -66,5 +66,55 @@ body {
 #formBottomHalf {
     width: 100%;
     height: 250px;
-    border: 1px solid #333;
+    border: 0px solid #333;
 }
+
+.checkBox {
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.remember_me {
+    color: #445a92;
+    margin-right: 155px;
+}
+
+#remember_me {
+    color: #445a92;
+}
+
+.login {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.login_link {
+    background-color: #b17fd0;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 175px 10px 175px;
+    border-radius: 50px;
+}
+
+.connect {
+    text-align: center;
+    color: #445a92;
+    margin-top: 40px;
+}
+
+.icons {
+    text-align: center;
+}
+
+.account {
+    text-align: center;
+    color: #ababab;
+}
+
+#connect {
+    color: #445a92;
+    display: inline-block;
+}
+
+
+
